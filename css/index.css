@@ -311,8 +311,9 @@ div.mode-adaptive {
     }
 
     .mode-adaptive .l-main-column {
-        width: 45.25em;
-        float: left;
+        width: 72.25em;
+        margin: auto;    font-weight: 600;
+
     }
 }
 
@@ -1655,7 +1656,8 @@ div.mode-adaptive {
 
 .b-article__body li {
     margin-left: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    margin-top: 40px;
 }
 
 .mode-adaptive .b-article__title span {

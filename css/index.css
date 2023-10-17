@@ -64,7 +64,7 @@ img {
 }
 
 .jsTabs .jsTabs-tabs-list .jsTabs-point span {
-    font-size: 0.75em;
+    /* font-size: 0.75em; */
 }
 
 .jsTabs .jsTabs-tabs-list .jsTabs-point.jsTabs-active {
@@ -177,7 +177,7 @@ body {
     line-height: 1.5;
     font-family: "Open Sans", Arial, sans-serif;
     width: 100%;
-    min-width: 62.5em;
+    min-width: 100%;
     min-height: 100%;
     position: relative;
     overflow: hidden;
@@ -233,7 +233,7 @@ div.mode-adaptive {
 .l-page-width {
     margin: 0px auto;
     display: block;
-    width: 62.5em;
+    width: 100%;
     position: relative;
 }
 
@@ -248,7 +248,7 @@ div.mode-adaptive {
 
 .l-page-width .l-page-width__ledge {
     margin: 0px 1.125em;
-    padding: 0px 1.125em;
+    /* padding: 0px 1.125em; */
     background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 }
 
@@ -296,7 +296,7 @@ div.mode-adaptive {
 
 .mode-adaptive .l-page-width {
     width: 100%;
-    max-width: 62.5em;
+    max-width: 100%;
     position: relative;
 }
 
@@ -953,13 +953,49 @@ div.mode-adaptive {
 .mode-adaptive .b-content-body {
     position: relative;
 }
+@media screen and (min-width: 63.938em){
+    .b-comments .b-comments__title span {
+        font-size: 2.25em;
 
+    }
+
+}
 @media screen and (max-width: 63.938em) {
     .mode-adaptive .b-main-nav::after {
         height: 0px;
         line-height: 0;
+       
     }
+    .b-comments .b-comments__title span {
+        font-size: 4.25em;
 
+    }
+    .b-comments .b-comments__list .b-comments__item .b-comments__item-text {
+        font-size: 1.938em;
+    font-weight: 600;
+    }
+    p {
+        font-size: 15px;
+    }
+    label{
+        font-size: 54px;
+
+    }
+    .b-article__body p {
+            font-size: 50px;
+    }
+    b, strong, span {
+        font-size: 36px;
+        line-height: 1.3;
+
+    }
+    h2, .h2 {
+        font-size: 3rem;
+    }
+    .b-article__body li {
+        margin-right: 49px;
+    font-size: 49px;
+    }
     .mode-adaptive .b-main-nav .l-page-width .l-page-width__ledge {
         margin: 0px;
         padding: 0px;
@@ -1236,8 +1272,8 @@ div.mode-adaptive {
 }
 
 .b-comments .b-comments__title span {
-    font-size: 1.25em;
-    letter-spacing: 0.025em;
+    /* font-size: 1.25em; */
+    /* letter-spacing: 0.025em; */
 }
 
 .b-comments .b-comments__users-stat {
@@ -1247,7 +1283,7 @@ div.mode-adaptive {
 }
 
 .b-comments .b-comments__users-stat span {
-    font-size: 0.75em;
+    /* font-size: 0.75em; */
 }
 
 .b-comments .b-comments__users-stat i {
@@ -1375,7 +1411,7 @@ div.mode-adaptive {
 }
 
 .b-comments .b-comments__list .b-comments__item .b-comments__item-head .b-comments__item-author span {
-    font-size: 0.938em;
+    /* font-size: 0.938em; */
 }
 
 .b-comments .b-comments__list .b-comments__item .b-comments__item-head .b-comments__item-author:hover {
@@ -1384,7 +1420,7 @@ div.mode-adaptive {
 
 .b-comments .b-comments__list .b-comments__item .b-comments__item-text {
     margin: 0px 0px 0.5em;
-    font-size: 0.938em;
+    /* font-size: 0.938em; */
 }
 
 .b-comments .b-comments__list .b-comments__item .b-comments__item-text a {
@@ -1499,7 +1535,7 @@ div.mode-adaptive {
 }
 
 .b-article__ind {
-    max-width: 40em;
+    max-width: 100%;
 }
 
 .mode-adaptive .b-article__ind {
@@ -1557,7 +1593,7 @@ div.mode-adaptive {
 }
 
 .b-article__info .b-article__info-date-update span {
-    font-size: 0.75em;
+    /* font-size: 0.75em; */
 }
 
 .b-article__info .b-article__info-date-update .b-article__info-date-update-color {
@@ -1578,12 +1614,13 @@ div.mode-adaptive {
 .b-article__lead {
     margin-bottom: 1em;
     font-weight: 700;
-    max-width: 40em;
+    max-width: 100%;
 }
 
 .b-article__body {
     padding-bottom: 1em;
-    max-width: 40em;
+    
+    max-width: 100%;
 }
 
 .b-article__body::after {
@@ -1597,11 +1634,13 @@ div.mode-adaptive {
 
 .b-article__body p {
     margin-bottom: 1.2em;
+    /* font-size: 20px; */
+    line-height: 1.3;
 }
 
 .b-article__body a {
     color: rgb(98, 167, 217);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .b-article__body a:hover {

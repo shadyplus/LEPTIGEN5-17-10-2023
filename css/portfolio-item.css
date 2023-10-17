@@ -38,7 +38,7 @@ input.input-3 {
     width: 100%;
     outline: 0;
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 32px;
     line-height: 41px;
     color: #1f1f1f;
     border-radius: 10px;
@@ -57,7 +57,7 @@ input.input-3 {
 span.text{display:inline-block;height:auto;font-size:16px}
 .text{display:table;width:100%;margin:0 auto;height:72px;position:relative;float:left;}
 
-label{margin-bottom:0;margin-top:5px;font-size:16px}
+label{margin-bottom:0;margin-top:5px;}
 .timetillde .dot{font-size:37px;line-height:73px;}
 .timetillde{display:table;margin:0 auto 10px;text-align:center}
 .timetillde .timer .num {margin-top:10px;
